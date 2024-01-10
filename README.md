@@ -9,7 +9,7 @@ Disclaimer: I am not a C++ developer. C&C does not support multi monitors and th
 
 # Usage
 
-Copy [CnCGenMultiMonFix.exe] (https://github.com/kcobb/CnCGenMultiMonFix/blob/main/CnCGenMultiMonFix/Release/CnCGenMultiMonFix.exe) to the `Command & Conquer Generals Zero Hour` installation directory.
+Copy [CnCGenMultiMonFix.exe](https://github.com/kcobb/CnCGenMultiMonFix/blob/main/CnCGenMultiMonFix/Release/CnCGenMultiMonFix.exe) to the `Command & Conquer Generals Zero Hour` installation directory.
 Double-click `CnCGenMultiMonFix.exe` to run
 A command window will open stating `searching for C&C game window...`
 Leave this window running in the background
