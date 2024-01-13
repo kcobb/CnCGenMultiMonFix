@@ -2,7 +2,7 @@
 Command &amp; Conquer: Generals – Zero Hour (MultiMonitor Lock)
 =========================
 
-When running C&C with a dual monitor setup. The mouse will not lock to the game window.  
+When running `Command & Conquer: Generals - Zero Hour` with a dual monitor setup. The mouse will not lock to the game window.  
 
 This is a quick console app i wrote in C++ 2013 to solve.
 
@@ -14,11 +14,15 @@ Copy [CnCGenMultiMonFix.exe](https://github.com/kcobb/CnCGenMultiMonFix/releases
 
 Double-click `CnCGenMultiMonFix.exe` to run
 
+The application will attempt to locate the game installation path from the Windows Registry. 
+
+If found, the game will auto launch.
+
 A command window will open stating `searching for C&C game window...`
 
-Leave this window running in the background
+If application does not auto launch `Command & Conquer: Generals - Zero Hour`.
 
-Now run `generals.exe`. This is the main executable for `Command & Conquer Generals Zero Hour` 
+Run `generals.exe` manually. This is the main executable for `Command & Conquer: Generals - Zero Hour` 
 
 The `C&C Generals - MultiMonitor Lock` text output will change from `searching for C&C game window...` to `game window locked`
 
