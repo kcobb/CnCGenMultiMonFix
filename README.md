@@ -1,5 +1,4 @@
-# CnCGenMultiMonFix
-Command &amp; Conquer: Generals – Zero Hour (MultiMonitor Lock)
+# Command &amp; Conquer: Generals – Zero Hour (MultiMonitor Lock)
 =========================
 
 When running `Command & Conquer: Generals - Zero Hour` with a dual monitor setup. The mouse will not lock to the game window.  
