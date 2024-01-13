@@ -10,7 +10,7 @@ Disclaimer: I am not a C++ developer. C&C does not support multi monitors and th
 
 # Usage
 
-Copy [CnCGenMultiMonFix.exe](https://github.com/kcobb/CnCGenMultiMonFix/releases/download/v1.0.0.1/CnCGenMultiMonFix.exe) to the `Command & Conquer Generals Zero Hour` installation directory.
+Copy [CnCGenMultiMonFix.exe](https://github.com/kcobb/CnCGenMultiMonFix/releases/download/v1.0.0.2/CnCGenMultiMonFix.exe) to the `Command & Conquer Generals Zero Hour` installation directory.
 
 Double-click `CnCGenMultiMonFix.exe` to run
 
