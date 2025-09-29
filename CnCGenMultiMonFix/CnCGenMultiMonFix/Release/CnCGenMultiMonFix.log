@@ -1,4 +1,4 @@
-﻿Build started 1/13/2024 12:36:04 AM.
+﻿Build started 9/28/2025 11:41:53 PM.
      1>Project "C:\Users\Kendall.Cobb\Documents\Visual Studio 2013\Projects\CnCGenMultiMonFix\CnCGenMultiMonFix\CnCGenMultiMonFix.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\CnCGenMultiMonFix.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
@@ -18,4 +18,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.77
+Time Elapsed 00:00:02.55
