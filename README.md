@@ -1,30 +1,37 @@
-# Command &amp; Conquer: Generals – Zero Hour (MultiMonitor Lock)
-=========================
+# Command & Conquer: Generals – Zero Hour (MultiMonitor Lock)
 
-When running `Command & Conquer: Generals - Zero Hour` with a dual monitor setup. The mouse will not lock to the game window.  
+## Overview
 
-This is a quick console app i wrote in C++ 2013 to solve.
+When playing *Command & Conquer: Generals - Zero Hour* on a dual or triple monitor setup, a common issue arises where the mouse cursor is not confined to the game window. This results in the cursor wandering off the game window and onto other monitors, which can be incredibly distracting and disrupt the gaming experience.
 
-Disclaimer: I am not a C++ developer. C&C does not support multi monitors and this solved the issue at hand. Use at your own risk!
+To address this issue, I created a simple C++ console application in 2013 that locks the mouse to the game window, ensuring that the cursor stays within the boundaries of *Generals: Zero Hour*. This eliminates the frustration of the mouse moving off-screen and provides a more immersive gameplay experience.
 
-# Usage
+## Disclaimer
 
-Copy [CnCGenMultiMonFix.exe](https://github.com/kcobb/CnCGenMultiMonFix/releases/download/v1.0.0.2/CnCGenMultiMonFix.exe) to the `Command & Conquer Generals Zero Hour` installation directory.
+I am not a professional C++ developer. This application is a workaround for the lack of multi-monitor support in *Command & Conquer: Generals – Zero Hour*. The game itself does not officially support multi-monitor setups, and this tool is not officially supported by the game or its developers. 
 
-Double-click `CnCGenMultiMonFix.exe` to run
+While I personally use this application without encountering major issues, please use it at your own risk. I cannot guarantee its functionality in all setups, and it may not work for everyone.
 
-The application will attempt to locate the game installation path from the Windows Registry. 
+## Usage
 
-If found, the game will auto launch.
+1. **Download and Extract**: Download Latest [CnCGenMultiMonFix.exe](https://github.com/kcobb/CnCGenMultiMonFix/releases/latest/download/CnCGenMultiMonFix.exe) and place it in the *Command & Conquer Generals – Zero Hour* installation directory.
 
-A command window will open stating `searching for C&C game window...`
+2. **Launch the Application**: Double-click `CnCGenMultiMonFix.exe` to run it.
 
-If application does not auto launch `Command & Conquer: Generals - Zero Hour`.
+3. **Game Auto Launch**: The application will attempt to detect the game installation path from the Windows Registry. If found, it will automatically launch *Command & Conquer: Generals – Zero Hour*.
 
-Run `generals.exe` manually. This is the main executable for `Command & Conquer: Generals - Zero Hour` 
+4. **Manual Launch (If Needed)**: If the game does not automatically launch, you will need to manually start *Command & Conquer: Generals – Zero Hour* by running `generals.exe` (the main game executable).
 
-The `C&C Generals - MultiMonitor Lock` text output will change from `searching for C&C game window...` to `game window locked`
+5. **Mouse Lock**: Once the game is running, the application will display the text `searching for C&C game window...`. Once the game window is detected, the text will change to `game window locked`, indicating that the mouse has been successfully confined to the game window.
 
-The mouse will now be locked to `Command & Conquer Generals Zero Hour` window. 
+6. **Exiting the Game**: When you quit *Command & Conquer: Generals – Zero Hour*, the application will detect that the game has closed, release the mouse lock, and automatically shut itself down.
 
-Once you quit `Command & Conquer Generals Zero Hour`, the `CnCGenMultiMonFix.exe` application will detect the closure, release the mouse lock and automatically close itself.
+## Important Notes
+
+- **Multi-Monitor Support**: *Command & Conquer: Generals – Zero Hour* does not natively support multi-monitor setups. This application provides an unofficial solution to help with the mouse locking issue.
+
+- **Use at Your Own Risk**: While I have personally used this tool with no major issues, it is not officially supported by the game and may not work for everyone. Please use it at your own discretion.
+
+---
+
+Feel free to open an issue or submit a pull request if you encounter any problems or have suggestions for improvements!
