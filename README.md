@@ -22,7 +22,7 @@ While I personally use this application without encountering major issues, pleas
 
 4. **Manual Launch (If Needed)**: If the game does not automatically launch, you will need to manually start *Command & Conquer: Generals – Zero Hour* by running `generals.exe` (the main game executable).
 
-5. **Mouse Lock**: Once the game is running, the application will display the text `searching for C&C game window...`. Once the game window is detected, the text will change to `game window locked`, indicating that the mouse has been successfully confined to the game window.
+5. **Mouse Lock**: Once the game is running, the application will display the message `Searching for C&C game window...`. After the game window is detected, the message will change to `Game window locked`, indicating that the mouse has been successfully confined to the game window. The application will then automatically minimize to the Windows system tray.
 
 6. **Exiting the Game**: When you quit *Command & Conquer: Generals – Zero Hour*, the application will detect that the game has closed, release the mouse lock, and automatically shut itself down.
 
