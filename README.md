@@ -4,7 +4,7 @@
 
 When playing *Command & Conquer: Generals - Zero Hour* on a dual or triple monitor setup, a common issue arises where the mouse cursor is not confined to the game window. This results in the cursor wandering off the game window and onto other monitors, which can be incredibly distracting and disrupt the gaming experience.
 
-To address this issue, I created a simple C++ console application in 2013 that locks the mouse to the game window, ensuring that the cursor stays within the boundaries of *Generals: Zero Hour*. This eliminates the frustration of the mouse moving off-screen and provides a more immersive gameplay experience.
+To address this issue, I created a simple C++ console application using Microsoft Visual Studio 2013 that locks the mouse to the game window, ensuring that the cursor stays within the boundaries of *Generals: Zero Hour*. This eliminates the frustration of the mouse moving off-screen and provides a more immersive gameplay experience.
 
 ## Disclaimer
 
